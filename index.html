@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="main-title">Welcome to My responsive Web Page</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section>
+        <p id="message">
+          Click the button to change this message and background!
+        </p>
+        <button onclick="changeContent()">Change Content</button>
+        <button onclick="addElement()">Add Item</button>
+        <button onclick="removeElement()">Remove Last Item</button>
+      </section>
+
+      <article>
+        <h2>My List</h2>
+        <ul id="item-list">
+          <li>Item 1</li>
+          <li>Item 2</li>
+        </ul>
+      </article>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 MySite</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
